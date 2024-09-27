@@ -52,7 +52,3 @@ elif lados > 5:
     print("Polígono não identificado")
 else:
     print("Número de lados inválido.")
-
-
-
-
