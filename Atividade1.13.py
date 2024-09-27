@@ -8,7 +8,9 @@
 
 idade = int(input("Digite sua idade: "))
 
-if idade >= 5 and idade <= 7:
+if idade < 5 or idade > 25:
+    print("idade fora da faixa etária")
+elif idade >= 5 and idade <= 7:
     print("Infantil A")
 elif idade >= 8 and idade <= 10:
     print("Infantil B")
