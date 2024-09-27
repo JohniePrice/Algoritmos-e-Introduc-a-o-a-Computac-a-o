@@ -9,7 +9,6 @@
 # • imc >= 30, escrever "OBESO MORBIDO”
 
 print("+++++++++++++++++++++Calculadora de IMC++++++++++++++++++++")
-nome = input("Qual seu nome? ")
 peso = float(input("Qual seu peso? "))
 altura = float(input("Qual sua altura? "))
 
